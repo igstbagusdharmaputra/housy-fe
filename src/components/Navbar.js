@@ -66,7 +66,7 @@ export default class Header extends Component {
               <input
                 className="form-box"
                 style={{ width: "300px", maxWidth: "300px" }}
-                placeholder="Search Housy"
+                placeholder="Search Housy!!"
               />
             )}
           </Form>
