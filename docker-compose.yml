@@ -18,14 +18,14 @@ version: "3"
 services:
     node:
         container_name: fe
-        image: dharmatkj/housy-fe-alpine:latest
+        image: dharmatkj/housy-fe:latest
         ports:
             - "3000:3000"
         stdin_open: true
     
     node1:
         container_name: fe1
-        image: dharmatkj/housy-fe-alpine:latest
+        image: dharmatkj/housy-fe:latest
         ports:
             - "3002:3000"
         stdin_open: true

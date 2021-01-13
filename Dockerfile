@@ -31,7 +31,7 @@
 #CMD ["nginx", "-g", "daemon off;"]
 
 #NODE ALPINE
-  
+#FRONTEND  
 FROM node:10-alpine
 
 WORKDIR /usr/src/app
